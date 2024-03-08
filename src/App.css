@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #d9d7d759;
+}
+
+
+nav {
+  background-color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+
+.header {
+  background-color: #ffffff;
+  color: white;
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 80px;
+  width: 80%;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 200px;
+  height: 60px;
+  margin-top: 10px;
+}
+.nav-elements {
+  display: flex;
+}
+.nav-elements ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.nav-elements ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-elements ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-links  {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  width:inherit;
+  padding: 26px 0;
+  transition: all ease 0.1s;
+}
+
+.nav-elements .nav-links:hover {
+  border-bottom: 4px solid black;
+  color: #000;
+}
+
+.hamburger-menu {
+  display: none; 
+}
+
+.hamburger-icon {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 5px 0;
+}
+
+.dropbtn {
+  background-color: inherit;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  width:inherit;
+  cursor: pointer;
+  padding: 23px 0;
+  border: none;
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.dropbtn:hover {
+  border-bottom: 4px solid black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 30px 20px;
+}
+
+.dropdown-content a {
+  color: rgb(83, 81, 81);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: all ease 0.3s;
+}
+
+.dropdown-content a:hover {
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}

@@ -215,6 +215,9 @@ nav ul li {
   background-color: #fff;
   padding:40px  60px;
   height: 45vh;
+  -webkit-box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
+  -moz-box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
+  box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
 }
 
 .features h1 {
@@ -280,6 +283,9 @@ nav ul li {
   padding:40px  60px;
   height: 45vh;
   margin-left: 100px;
+  -webkit-box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
+  -moz-box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
+  box-shadow: 16px 20px 9px -5px rgba(0,0,0,0.09);
 }
 
 .features-two h1 {

@@ -169,3 +169,141 @@ nav ul li {
 .hero-img-div img {
   width: 100%;
 }
+
+.features-section {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+
+.features-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.features-content{
+  display: flex;
+
+}
+
+
+.features-img {
+  width: 50%;
+  height: 50vh;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.features-img img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.features {
+  position: absolute;
+  top: 900px;
+  left: 870px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 30%;
+  border-radius: 20px;
+  background-color: #fff;
+  padding:40px  60px;
+  height: 45vh;
+}
+
+.features h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.features p {
+  line-height: 30px;
+} 
+
+.features button {
+  margin-top: 130px;
+  border: 2px solid black;
+  outline: none;
+  background: #fff;
+  font-weight: 700;
+  padding: 12px 150px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.features button:hover {
+  background-color: rgb(200, 197, 197);
+}
+
+
+
+
+
+
+.features-content-two{
+  display: flex;
+  margin-top: 220px;
+}
+
+
+.features-two-img {
+  width: 40%;
+  height: 50vh;
+  border-radius: 20px;
+  position: absolute;
+  left: 800px;
+}
+
+.features-two-img img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 20px;
+
+}
+
+.features-two {
+  position: absolute;
+  top: 1600px;
+  right: 800px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 30%;
+  border-radius: 20px;
+  background-color: #fff;
+  padding:40px  60px;
+  height: 45vh;
+  margin-left: 100px;
+}
+
+.features-two h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.features-two p {
+  line-height: 30px;
+} 
+
+.features-two button {
+  margin-top: 130px;
+  border: 2px solid black;
+  outline: none;
+  background: #fff;
+  font-weight: 700;
+  padding: 12px 150px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.features-two button:hover {
+  background-color: rgb(200, 197, 197);
+}

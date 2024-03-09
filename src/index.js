@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Features  from './components/feature';
 import Brands from './components/brands';
+import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Hero />
     <Features />
     <Brands />
+    <Footer />
   </React.StrictMode>
 );
 

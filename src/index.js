@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Features  from './components/feature';
+import Brands from './components/brands';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <Navbar />
     <Hero />
     <Features />
+    <Brands />
   </React.StrictMode>
 );
 

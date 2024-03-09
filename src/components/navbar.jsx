@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from '/Users/ringo/Desktop/coca-cola-landing-page/src/images/logo.png'
 import '/Users/ringo/Desktop/coca-cola-landing-page/src/App.css';
 import { PiCaretDownLight } from "react-icons/pi";
+import { IoIosSearch } from "react-icons/io";
 
 
 const Header = () => {
@@ -56,6 +57,9 @@ const Header = () => {
         </div>
 
         <div className='search-div' style={{color:"black"}}>  
+          <div>
+          <IoIosSearch style={{fontSize:"30px"}} />
+          </div>
         </div>
       </div>
     </nav>

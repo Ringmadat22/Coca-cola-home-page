@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '/Users/ringo/Desktop/coca-cola-landing-page/src/images/logo.png'
 import '/Users/ringo/Desktop/coca-cola-landing-page/src/App.css';
-
+import { PiCaretDownLight } from "react-icons/pi";
 
 
 const Header = () => {
@@ -30,7 +30,9 @@ const Header = () => {
             </li>
             <li style={{margin:"0 0px 0 0"}}>
               <a href="projects" class="dropdown">
-                <button class="dropbtn">Discover</button>
+                <button class="dropbtn">Discover 
+                <PiCaretDownLight />
+                </button>
                 <div class="dropdown-content">
                   <a href="#h">Link 1</a>
                   <a href="#h">Link 2</a>
@@ -40,7 +42,9 @@ const Header = () => {
             </li>
             <li style={{margin:"0 0px 0 0"}}>
               <a href="projects" class="dropdown">
-                <button class="dropbtn">Impact</button>
+                <button class="dropbtn">Impact
+                <PiCaretDownLight className="header-icon" />
+                </button>
                 <div class="dropdown-content">
                   <a href="#h">Link 1</a>
                   <a href="#h">Link 2</a>
@@ -51,8 +55,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className='search-div' style={{color:"black"}}>
-          hi
+        <div className='search-div' style={{color:"black"}}>  
         </div>
       </div>
     </nav>
